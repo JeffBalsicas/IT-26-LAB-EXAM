@@ -1,0 +1,119 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #009688;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #00796b;
+}
+
+/* Navigation */
+nav {
+    background-color: #009688;
+    padding: 20px 0;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Home Section */
+.home-section {
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Cottages Section */
+.cottages-section {
+    padding: 50px 0;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.price {
+    display: block;
+    font-size: 1.2rem;
+    color: #009688;
+    margin-top: 10px;
+}
+
+/* Reservations Section */
+.reservations-section {
+    background-color: #009688;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.reservations-section form {
+    text-align: center;
+}
+
+.reservations-section input,
+.reservations-section textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.reservations-section button {
+    background-color: #fff;
+    color: #009688;
+}
+
+/* About Us Section */
+.about-us-section {
+    padding: 50px 0;
+}
